@@ -1,0 +1,12 @@
+<H1>Login Here!</H1>
+<form class="container" style="margin-top: 20px; margin-left:20px">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input type="text" name="username" [(ngModel)]="username" matInput placeholder="Enter Your Username"  >
+  </mat-form-field><br>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Password</mat-label>
+    <input type="password" name="password" [(ngModel)]="password" matInput placeholder="Enter Your Password" >
+  </mat-form-field><br>
+  <button mat-raised-button color="primary" (click)="login()" >Submit</button>
+  </form>
